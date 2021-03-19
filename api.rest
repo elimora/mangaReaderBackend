@@ -1,0 +1,13 @@
+###
+GET  http://localhost:4000/products
+
+###
+POST   http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "nombre":"Ironman 28", 
+    "categoria":"manga",
+    "nunCap":86,
+    "imgUrl":"vacia"
+}
